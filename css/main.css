@@ -3,6 +3,7 @@
     font-size: 24px;
 }
 
+
 header{
     height: 250px;
     width: 1500px;
@@ -13,7 +14,6 @@ header{
 ul{
     width: 1500px;
     position: absolute;
-    outline: 1px solid yellow;
     list-style: none;
 }
 
@@ -38,7 +38,6 @@ input{
 hr{
     position: relative;
     top:70px;
-    background: purple;
 }
 
 .nav-button{
@@ -55,12 +54,14 @@ button{
     width: 140px;
     height: 60px;
     margin-left: 10px;
-    font-weight: 600px;
+    font-weight: 800px;
     border-radius: 15px;
+    background-image: url("../assets/img/fondo-3.jpg");
+    opacity: 0.9;
+    color: white;
 }
 
 section{
-    outline: 1px solid red;
     position: relative;
     display: inline-block;
     width: 1550px;
@@ -69,8 +70,6 @@ section{
 }
 
 .box{
-    outline: 1px solid green; 
-    border-radius: 5px;
     position: relative;
     margin: 20px;
     padding: 10px;
@@ -78,67 +77,62 @@ section{
 }
 
 #box-1{
-    outline: 1px solid blue; 
     top: 250px;
-    width: 400px;
-    height: 300px;
+    width: 260px;
+    height: 380px;
     max-width: 100%;
 }
 
 #box-2{
-    outline: 1px solid blue; 
     width: 290px;
     top: 250px;
-    height: 600px;
+    height: 480px;
 }
 
 #box-3{
-    outline: 1px solid blue; 
-    top: 250px;
+    top: 400px;
     width: 280px;
     height: 200px;
 }
 
 #box-4{
-    outline: 1px solid blue; 
     top: 250px;
-    width: 200px;
-    height: 700px;
+    width: 300px;
+    height: 540px;
 }
 
 #box-5{
-    outline: 1px solid blue; 
-    top: 60px;
+    top: 160px;
     left: 30px;
     width: 290px;
-    height: 300px;
+    height: 280px;
 }
 
 #box-6{
-    outline: 1px solid blue; 
-    top: 250px;
+    top: 240px;
     left: 50px;
-    width: 300px;
-    height: 350px;
+    width: 330px;
+    height: 500px;
 }
 
 #box-7{
-    outline: 1px solid blue; 
-    top: 70px;
+    top: 250px;
     left: 90px;
     width: 270px;
     height: 300px;
 }
 
 #box-8{
-    outline: 1px solid blue; 
     top: 290px;
     left: 100px;
     width: 280px;
-    height: 300px;
+    height: 440px;
 }
 
 section img{
     max-width: 100%;
 }
 
+section div{
+    border-radius: 15px;
+}
