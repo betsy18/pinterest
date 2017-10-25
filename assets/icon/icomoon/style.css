@@ -26,16 +26,21 @@
 
 .icon-bubble:before {
   content: "\41";
-  color: 
+  position: relative;
+  left: 880%;
 }
 .icon-user:before {
   content: "\42";
+  left: 980px;
+  position: relative;
 }
 .icon-search:before {
   content: "\e986";
 }
 .icon-menu:before {
   content: "\44";
+  position: relative;
+  left: 930px;
 }
 .icon-cross:before {
   content: "\45";
@@ -45,4 +50,5 @@
 }
 .icon-pinterest2:before {
   content: "\47";
+  color: red;
 }
